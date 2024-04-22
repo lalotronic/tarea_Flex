@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+}
+.menu_lateral{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 1px solid #E8EBE4;
+    width: 20%;
+    
+}
+.usuario{
+    display:flex;
+    justify-content: space-around;/*probando*/
+    align-items: center;
+    border-bottom: 1px solid #E8EBE4;
+    padding-bottom: 10px;
+    
+}
+.usuario_1{
+    display:flex;
+    
+}
+
+.usuario_1 img{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+    
+}
+.usuario_1 p{
+    font-size:16px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.usuario_1 span{
+    font-size:12px;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+    color:gray;
+}
+.usuario_2{
+    display: flex;
+    /*border:1px solid red;*/
+}
+.seccion_principal{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #E8EBE4;
+    border:1px solid #BEC1BB;
+    
+}
+.seccion_principal img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;    
+}
+
+
+/* probando las propiedades*/ 
+.user_1 {
+    display: flex;    
+    align-self: left;   
+    border: 1px solid #E8EBE4;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 50px;
+    /*align-items: flex-start;*/
+    align-items: center;
+
+    
+}
+.user_1 img{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+}
+.user_1 p{
+     font-family:'Roboto';
+     font-weight: normal;
+     font-size: 16px;/*no cambia de tamaño*/
+     margin-bottom: 0px;
+}
+.user_1 span{
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+button{
+   
+    background-color: #A491D2;
+    border: #A491D2;
+    color: #ffff;
+    font-size: 16px;    
+    width: 220px;
+    height: 50px;
+    align-content: center;
+    
+}
+.Cajaboton{
+    display:flex;
+    justify-content:center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid #E8EBE4;
+}
+.seccion_principal h2{
+    font-family:'Open Sans';
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0px;
+}
+.seccion_principal p{
+    font-family:'Open Sans';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+}
